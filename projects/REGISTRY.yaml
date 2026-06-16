@@ -1,0 +1,22 @@
+schema_version: 1
+projects:
+  - slug: x4bot
+    name: X4Bot
+    path: projects/x4bot
+    status: active
+    framework_owner: chatgpt
+    implementation_agent: mimo
+    code_source: github
+    task_source: linear
+    handoff_source: gmail
+    visibility_required: private
+
+reserved_names:
+  - _template
+  - _archive
+
+rules:
+  project_root_pattern: projects/<project-slug>
+  slugs: lowercase-kebab-case
+  new_projects_require_framework_review: true
+  top_level_directories_are_locked: true
