@@ -1,0 +1,83 @@
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.p12
+*.pfx
+*token*
+*secret*
+*credential*
+*authorization_code*
+
+# AgentBridge runtime/mail state
+AgentBridge/
+**/AgentBridge/
+**/inbox_from_chatgpt/
+**/outbox_to_chatgpt/
+**/sent/
+**/processed/
+**/failed/
+**/state.json
+
+# Databases, logs, archives, chat data
+*.db
+*.sqlite
+*.sqlite3
+*.log
+logs/
+reports/runtime/
+records/
+记录/
+**/groups/*.md
+raw_combined.log
+
+# QQ / NapCat / AstrBot runtime data
+**/data_v4.db
+**/napcat*/data/
+**/AstrBot/data/
+**/qq_data/
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.venv/
+venv/
+
+# Node / browser caches
+node_modules/
+.playwright/
+.chromium/
+.browser-cache/
+
+# OS / IDE / temp
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.tmp
+*.bak
+*.swp
+
+# Build and deployment artifacts
+build/
+dist/
+artifacts/
+packages/
+*.zip
+*.7z
+*.tar
+*.gz
+
+# Local machine overrides
+config/local/
+*.local.json
+*.local.yaml
+*.local.yml
