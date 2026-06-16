@@ -1,0 +1,25 @@
+project:
+  name: CHANGE_ME
+  slug: change-me
+  status: planned
+  framework_owner: chatgpt
+  implementation_agent: unassigned
+
+repository:
+  root: projects/change-me
+  visibility_required: private
+
+structure:
+  source: src
+  scripts: scripts
+  tests: tests
+  config_templates: config
+  deployment: deploy
+  documentation: docs
+  manifests: manifests
+  tools: tools
+
+change_control:
+  top_level_directory_changes_require_approval: true
+  cross_module_moves_require_approval: true
+  destructive_operations_require_user_approval: true
