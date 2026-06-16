@@ -4,7 +4,7 @@
 
 ## 必装 Apps
 
-1. Gmail：连接 `gpt809411163@gmail.com`
+1. Gmail：连接 X4Bot 专用桥接邮箱（账号信息记录在 Linear 私有文档中）
 2. GitHub：授权访问 `beavtye/X4`
 3. Linear：连接 `Mantxi` 工作区
 
